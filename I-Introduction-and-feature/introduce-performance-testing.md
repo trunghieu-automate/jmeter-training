@@ -1,12 +1,12 @@
-## Introdution to Performance testing
+# Introdution to Performance testing
 
-- `Performance testing` is a type of software testing that is `used to evaluate` the `speed`, `responsiveness`, `stability`, and `scalability` of a system or application `under different workloads`. 
+`Performance testing` is a type of software testing that is `used to evaluate` the `speed`, `responsiveness`, `stability`, and `scalability` of a system or application `under different workloads`. 
 
-- The `main objective` of performance testing is `to identify` and `eliminate` `bottlenecks` in the system that `could lead to poor performance`, low user `satisfaction`, and even `system failure`. 
+The `main objective` of performance testing is `to identify` and `eliminate` `bottlenecks` in the system that `could lead to poor performance`, low user `satisfaction`, and even `system failure`. 
 
-- In this detailed introduction, we will explore the different types of performance testing, its importance, and the key steps involved in conducting a performance test.
+In this detailed introduction, we will explore the different types of performance testing, its importance, and the key steps involved in conducting a performance test.
 
-# `*Types of Performance Testing*`:
+## Types of Performance Testing:
 
 1. `Load testing`: This type of testing is used to `evaluate how well` the system or application performs under a `heavy workload`. It involves `simulating` a `large number of users` accessing the system `simultaneously` `to identify` its `limits` and `measure` its `response time`, `throughput`, and `resource utilization`.
 
@@ -18,7 +18,7 @@
 
 5. `Volume testing`: This type of testing is used to `evaluate how well` the system `handles large amounts of data`. It involves testing the system's `ability to manage` and `process large volumes of data` without performance degradation.
 
-# *Importance of Performance Testing*:
+## Importance of Performance Testing:
 
 1. Improved user experience: Performance testing helps identify and eliminate bottlenecks in the system that could lead to poor user experience, frustration, and even abandonment of the system.
 
@@ -28,7 +28,7 @@
 
 4. Cost savings: Performance testing helps identify and fix performance issues early in the development cycle, reducing the cost of fixing them later.
 
-# *Steps involved in Performance Testing*:
+## Steps involved in Performance Testing:
 
 1. Define test objectives: Determine the purpose and scope of the performance test, including the workload, metrics, and success criteria.
 
@@ -44,9 +44,9 @@
 
 *In conclusion*, performance testing is a `critical part of software development` that helps `ensure` a `system's speed`, `responsiveness`, `stability`, and `scalability`. It involves different types of testing, including load testing, stress testing, endurance testing, spike testing, and volume testing, each serving a different purpose. Conducting a performance test involves defining test objectives, identifying the testing environment, creating test scenarios, configuring and executing tests, analyzing and reporting results, and retesting and validating.
 
-## chatGPT Answer some question:
+# chatGPT Answer some question:
 
-# when will a project need to conduct performance testing?
+## when will a project need to conduct performance testing?
 
 A project will need to perform performance testing when it is `necessary to ensure` that the system or application `can handle` the expected `workload` and provide `satisfactory performance` to the end-users. The following are some scenarios when performance testing may be necessary:
 
@@ -62,7 +62,7 @@ A project will need to perform performance testing when it is `necessary to ensu
 
 *In summary*, performance testing should be conducted whenever there is a need to ensure that the system can handle the expected workload and provide satisfactory performance to the end-users. The need for performance testing may arise during software development, upgrades, changes in infrastructure, high user traffic, or regulatory compliance.
 
-# which software development life circle will run performance test? anh why?
+## which software development life circle will run performance test? anh why?
 
 Performance testing can be performed at `various stages` of the software development life cycle (SDLC), `depending on` the `specific goals` and `requirements` of the project. However, it is typically `recommended to perform` performance testing in the `later stages` of the SDLC, `after` the system or application has been `developed`, `tested`, and `is close to release`. The following are some of the SDLC stages when performance testing can be conducted:
 
@@ -78,7 +78,7 @@ It is `essential` to note that performance testing `should not be the last step`
 
 *In summary*, performance testing can be conducted at different stages of the SDLC, but it is typically recommended to perform it in the later stages, after the system or application has been developed, tested, and is close to release. However, it is essential to integrate performance testing into the development process from the beginning to identify and resolve performance issues early.
 
-# which tool cover all or the most features of performance testing now?
+## which tool cover all or the most features of performance testing now?
 
 There are several tools available in the market that cover all or most of the features of performance testing. However, `it is challenging to name one specific tool that covers all features` because the choice of a performance testing tool depends on several factors, including the project requirements, the type of application being tested, the budget, and the expertise of the testing team. That being said, here are some of the most popular and widely used performance testing tools that cover a broad range of performance testing features:
 
