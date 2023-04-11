@@ -1,0 +1,21 @@
+## Why we integrate selenium in Jmeter?
+There are several reasons why we should integrate Selenium WebDriver in JMeter. Some of them are:
+
+- Selenium WebDriver can `simulate real user actions` on the browser, such as clicking, typing, scrolling, etc. This can help us test the functionality and usability of the web application under load.
+- Selenium WebDriver can `measure the client-side performance metrics`, such as page load time, rendering time, JavaScript execution time, etc. These metrics are not captured by JMeter alone, as JMeter is not a real browser.
+- Selenium WebDriver can `test the dynamic and interactive elements` of the web application, such as AJAX, CSS animations, JS templates, etc. These elements can affect the overall performance and user experience of the web application.
+- Selenium WebDriver can run tests with different browsers and configurations, such as Chrome, Firefox, IE, etc. This can help us check the cross-browser compatibility and responsiveness of the web application.
+Therefore, by integrating Selenium WebDriver in JMeter, we can perform a more comprehensive and realistic load testing of a web application.
+
+[educba.com](https://www.educba.com/jmeter-with-selenium/), [baeldung.com](https://www.baeldung.com/selenium-jmeter), [stackoverflow.com](https://stackoverflow.com/questions/7817498/running-selenium-scripts-with-jmeter), [q-automations.com](https://q-automations.com/2019/05/07/how-to-run-selenium-script-in-jmeter/)
+## How to integrate selenium in Jmeter?
+
+There are different ways to run Selenium scripts in JMeter, depending on your preferences and needs. Some of the possible ways are:
+
+- Using JUnit Request Sampler: This way is useful if you want to reuse your existing Java Selenium scripts without rewriting them. You need to export your Selenium test plan as a JAR file and put it in the JMeter lib/junit folder. You also need to add the Selenium Java client libraries to the JMeter classpath. Then you can configure the JUnit Request Sampler with the class name and test method of your Selenium script.
+- Using BeanShell Sampler: This way is useful if you want to write your Selenium script in BeanShell language, which is similar to Java but more flexible and dynamic. You need to add the Selenium Java client libraries to the JMeter classpath. Then you can write your Selenium script in the BeanShell Sampler using the WDS.browser object.
+- Using JSR223 Sampler + Groovy: This way is useful if you want to write your Selenium script in Groovy language, which is also similar to Java but more powerful and expressive. You need to add the Selenium Java client libraries and the Groovy library to the JMeter classpath. Then you can write your Selenium script in the JSR223 Sampler using the WDS.browser object and selecting Groovy as the language.
+- Using JMeter plugin manager: This way help us use Webdriver sampler as a plug-in in Jmeter.
+
+
+## Pros and cons each ways:
