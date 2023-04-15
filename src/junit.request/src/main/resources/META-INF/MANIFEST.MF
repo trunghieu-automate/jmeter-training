@@ -1,0 +1,43 @@
+Manifest-Version: 1.0
+Main-Class: 
+Class-Path: xmlgraphics-commons-2.7.jar freemarker-2.3.31.jar darklaf-pl
+ atform-base-2.7.3.jar groovy-jmx-3.0.11.jar log4j-core-2.17.2.jar Apach
+ eJMeter_core-5.5.jar batik-gvt-1.14.jar oro-2.0.8.jar kotlinx-coroutine
+ s-swing-1.6.1.jar jackson-databind-2.13.3.jar log4j-api-2.17.2.jar plot
+ -common-portable-jvm-2.2.1.jar error_prone_annotations-2.10.0.jar commo
+ ns-math3-3.6.1.jar kotlin-stdlib-common-1.5.31.jar xmlpull-1.1.3.1.jar 
+ darklaf-macos-2.7.3.jar bsf-2.4.0.jar lets-plot-kotlin-jvm-3.1.1.jar sw
+ ing-extensions-laf-support-0.1.3.jar plot-config-portable-jvm-2.2.1.jar
+  batik-script-1.14.jar jodd-props-5.0.13.jar xercesImpl-2.12.2.jar jack
+ son-annotations-2.13.3.jar kotlin-stdlib-jdk7-1.6.21.jar annotations-16
+ .0.2.jar kotlin-logging-2.0.5.jar batik-util-1.14.jar darklaf-windows-2
+ .7.3.jar darklaf-native-utils-2.7.3.jar kotlin-stdlib-jdk8-1.6.21.jar v
+ is-svg-portable-jvm-2.2.1.jar tika-core-1.28.3.jar groovy-3.0.11.jar se
+ rializer-2.7.2.jar xmlresolver-4.2.0-data.jar commons-codec-1.15.jar jo
+ dd-core-5.0.13.jar groovy-templates-3.0.11.jar kotlinx-html-jvm-0.7.3.j
+ ar groovy-dateutil-3.0.11.jar batik-parser-1.14.jar xml-apis-1.4.01.jar
+  batik-shared-resources-1.14.jar xmlresolver-4.2.0.jar svgSalamander-1.
+ 1.2.4.jar ApacheJMeter-5.5.jar junit-4.13.2.jar httpcore-4.4.13.jar com
+ mons-io-2.11.0.jar rhino-1.7.14.jar slf4j-api-1.7.36.jar kotlin-stdlib-
+ 1.6.21.jar log4j-slf4j-impl-2.17.2.jar batik-awt-util-1.14.jar batik-sv
+ g-dom-1.14.jar groovy-json-3.0.11.jar jackson-core-2.13.3.jar commons-c
+ ollections-3.2.2.jar batik-transcoder-1.14.jar commons-lang3-3.12.0.jar
+  Saxon-HE-11.3.jar miglayout-swing-5.3.jar groovy-xml-3.0.11.jar miglay
+ out-core-5.3.jar groovy-jsr223-3.0.11.jar mxparser-1.2.2.jar hamcrest-c
+ ore-1.3.jar jtidy-r938.jar swing-extensions-visual-padding-0.1.3.jar ba
+ tik-xml-1.14.jar tika-parsers-1.28.3.jar darklaf-core-2.7.3.jar log4j-1
+ .2-api-2.17.2.jar plot-builder-portable-jvm-2.2.1.jar xalan-2.7.2.jar d
+ arklaf-extensions-rsyntaxarea-0.3.4.jar plot-base-portable-jvm-2.2.1.ja
+ r batik-ext-1.14.jar xml-apis-ext-1.3.04.jar base-portable-jvm-2.2.1.ja
+ r hamcrest-date-2.0.8.jar groovy-sql-3.0.11.jar darklaf-utils-2.7.3.jar
+  kotlinx-coroutines-core-1.6.1.jar httpclient-4.5.13.jar batik-bridge-1
+ .14.jar kotlin-logging-jvm-2.0.5.jar xstream-1.4.19.jar groovy-datetime
+ -3.0.11.jar caffeine-2.9.3.jar jcl-over-slf4j-1.7.36.jar kotlinx-corout
+ ines-core-jvm-1.6.1.jar batik-i18n-1.14.jar batik-dom-1.14.jar rsyntaxt
+ extarea-3.2.0.jar batik-svggen-1.14.jar batik-constants-1.14.jar Apache
+ JMeter_junit-5.5.jar darklaf-property-loader-2.7.3.jar darklaf-theme-2.
+ 7.3.jar commons-text-1.9.jar apiguardian-api-1.1.2.jar lets-plot-batik-
+ 2.2.1.jar lets-plot-common-2.2.1.jar commons-collections4-4.4.jar batik
+ -anim-1.14.jar commons-logging-1.0.4.jar batik-codec-1.14.jar jorphan-5
+ .5.jar checker-qual-3.19.0.jar batik-css-1.14.jar
+
