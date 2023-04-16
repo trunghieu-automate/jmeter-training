@@ -18,11 +18,10 @@ public class TestCSVFileRule {
     }
 
     @Test
-    public void readCsvFile() throws IOException, IOException {
+    public void readCsvFile() throws IOException {
         BufferedReader reader = csvFileRule.getReader();
         // Read a line from the csv file and assert something
         String line = reader.readLine();
         assertEquals("Hello", line);
-        // Access the reader field from the rule object
     }
 }

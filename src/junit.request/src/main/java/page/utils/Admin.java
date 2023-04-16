@@ -4,7 +4,7 @@ public class Admin {
     private String name;
     private String pass;
     private Admin(){
-        this.name = "utils.Admin";
+        this.name = "Admin";
         this.pass = "admin123";
     }
     private static Admin instance;

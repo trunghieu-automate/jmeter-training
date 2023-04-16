@@ -2,7 +2,6 @@ package runner;
 
 import org.junit.experimental.ParallelComputer;
 import org.junit.runner.JUnitCore;
-import testcasse.LoginTest;
 import testcasse.SeleniumDevTest;
 
 public class ParallelRunner {
@@ -11,6 +10,6 @@ public class ParallelRunner {
         // Create a ParallelComputer object with parallel mode for classes and methods
         ParallelComputer pc = new ParallelComputer(true, true);
         // Run the test classes in parallel using the ParallelComputer object
-        JUnitCore.runClasses(pc, SeleniumDevTest.class);
+        JUnitCore.runClasses(pc, SeleniumDevTest.class, SeleniumDevTest.class, SeleniumDevTest.class);
     }
 }

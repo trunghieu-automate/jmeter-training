@@ -5,12 +5,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import page.utils.PropertiesReader;
+
 import java.io.IOException;
 import java.time.Duration;
 import java.util.Objects;
 
 public class BaseTest {
     private final String browser = PropertiesReader.get("browser");
+
     public synchronized WebDriver initDriver() {
         if (Objects.isNull(DriverManager.getDriver())) {
             try {
@@ -18,7 +20,7 @@ public class BaseTest {
                     WebDriver driver = new ChromeDriver(OptionManager.getChromeOptions());
                     DriverManager.setDriver(driver);
                 } else if (browser.equalsIgnoreCase("firefox")) {
-                    WebDriver driver = new FirefoxDriver();
+                    WebDriver driver = new FirefoxDriver(OptionManager.getFirefoxOptions());
                     DriverManager.setDriver(driver);
                 } else if (browser.equalsIgnoreCase("edge")) {
                     WebDriver driver = new EdgeDriver(OptionManager.getEdgeOption());
@@ -43,7 +45,7 @@ public class BaseTest {
         System.out.println("Quit current driver successfully");
     }
 
-    private void killBrowserTask(){
+    public synchronized void killBrowserTask() {
         Runtime runtime = Runtime.getRuntime();
         // Execute the command to kill all `chromedriver.exe`
         try {

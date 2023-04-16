@@ -21,14 +21,14 @@ public class OptionManager {
 
     public static EdgeOptions getEdgeOption() {
         EdgeOptions options = new EdgeOptions();
-        options.addArguments(
+        /*options.addArguments(
                 "--disable-extensions",
                 "--disable-gpu",
                 "--disable-setuid-sandbox",
                 "--headless",
                 "disable-infobars",
                 "--disable-dev-shm-using",
-                "--remote-allow-origins=*");
+                "--remote-allow-origins=*");*/
         return options;
     }
 
